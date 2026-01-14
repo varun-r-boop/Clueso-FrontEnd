@@ -5,6 +5,10 @@ fe-int-clueso/.git/
 node_modules/
 **/node_modules/
 
+# Angular cache
+.angular/
+**/.angular/
+
 # Build outputs
 dist/
 build/
