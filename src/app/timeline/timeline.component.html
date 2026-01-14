@@ -1,0 +1,12 @@
+<div class="timeline-container">
+  <canvas
+    #canvas
+    class="timeline-canvas"
+    (mousedown)="onMouseDown($event)"
+    (mousemove)="onMouseMove($event)"
+    (mouseup)="onMouseUp($event)"
+    (mouseleave)="onMouseLeave()"
+    (wheel)="onWheel($event)"
+    (click)="onClick($event)"
+  ></canvas>
+</div>
