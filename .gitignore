@@ -1,5 +1,19 @@
+# Dependencies
 node_modules/
+
+# Build output
 dist/
-.tsbuildinfo
+build/
+
+# Env
 .env
+.env.*
+
+# Editor
 .vscode/
+
+# Logs
+*.log
+
+# TypeScript
+*.tsbuildinfo
